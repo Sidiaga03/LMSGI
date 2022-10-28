@@ -1,0 +1,108 @@
+* {
+    margin:0px;
+    padding:0px;
+    
+}
+
+header{
+    background-color: red;
+    margin: 10px;
+    height: 100px;
+    width: 100%;
+
+}
+
+header nav{
+    background-color: yellowgreen;
+    height: 100px;
+    float: left;
+}
+
+header nav a{
+    border: 2px solid orange;
+    background-color: gray;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+header figure{
+    background-color: orange;
+    height: 100px;
+    width: 20%;
+    float: left;
+}
+
+header div#registro{
+    background-color: blue;
+    height: 100px;
+}
+
+figure img{
+    width: 90px;
+    height: 90%;
+    border-radius: 100%;
+    margin-left: 90px;
+    margin-top: 5px;
+}
+
+p{
+    text-align: left;
+    border: solid 2px black;
+}
+
+body{
+    background-color: purple;
+    padding: 10px;
+
+
+}
+main{
+    background-color: green;
+    margin: 10px;
+    border: solid 5px;
+}
+
+h1{
+    border:2px solid black;
+    padding: 20px;
+    padding-left: 200px;
+    margin: 10px;
+    margin-right: 100px;
+    border-left: 200px;
+    font-size: 30px;
+    text-align: right;
+    border-radius: 15px;
+    border-top-left-radius: 60px;
+    word-spacing: 25px;
+    letter-spacing: 1px;
+    background-color: black;
+    color: white;
+
+
+}
+footer{
+    background-color: yellow;
+    margin: 10px;
+    height: 50px;
+}
+
+footer div#mapa{
+    height: 60px;
+    background-color: red;
+    width: 50%;
+    margin-top: 30px;
+}
+
+footer div#redes{
+    height: 60px;
+    background-color: green;
+    width: 50%;
+}
+
+footer nav a{
+    border: 2px solid red;
+}
+
+a{
+    border: 2px solid black;
+}
