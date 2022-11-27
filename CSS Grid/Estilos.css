@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+}
+header #contacto{
+    height: 30%;
+    width: 80%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+header #contacto a{
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    margin-left: 10px;
+}
+
+header #social{
+    height: 30%;
+    width: 20%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header #social a{
+    color: black;
+    font-size: 25px;
+}
+
+header figure {
+    height: 70%;
+    background-color:black;
+    width: 15%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+header figure img {
+    height: 60%;
+}
+header figure h3 {
+    color: white;
+}
+header #apartados {
+    background-color:black;
+    width: 85%;
+    order: 1;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+header #apartados a {
+    text-decoration: none;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;    
+    border: 0px solid white;
+}
+
+header #apartados a i {
+    order: 1;
+    font-size: 40px;
+    padding-bottom: 5px;
+    color: greenyellow;
+}
+
+header #apartados a span {
+
+    font-size: 20px;
+    font-family: Satisfy;
+    color: white;
+}
+
+main {
+    min-height:500px;
+}
+main #breadCrumb {
+    height: 50px;
+    background-color: orange;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+main #breadCrumb h2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    border: 0px solid black;
+    color: white;
+    font-size: 30px;
+}
+main #breadCrumb nav{
+    width: 30%;
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+}
+main #breadCrumb nav a{
+    text-decoration: none;  
+    padding:5px;
+    font-size: 17px;
+}
+main #breadCrumb nav a:last-child{
+    color: black;
+    font-style: italic;
+}
+
+main section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+main section article {
+    width: 32%;
+    border:  solid 1px black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+main section article figure {
+    height:100px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+main section article figure img {
+    height: 100%;
+}
+main section article h3{
+    padding: 3px;
+    width: 80%;
+    color: blue
+}
+main section article p{
+    margin-left: 5px;
+}
