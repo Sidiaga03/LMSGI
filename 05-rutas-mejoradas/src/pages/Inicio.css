@@ -1,0 +1,22 @@
+section#inicio > h1{
+  text-align: center;
+  border: solid 2px black;
+  width: 70%;
+  margin-left: 17%;
+  margin-top: 20px;
+  font-size: 40px;
+  color: black;
+  background: linear-gradient(to bottom, orange, yellow);
+}
+section#inicio > h3{
+    margin-left: 26%;
+    margin-top: 3%;
+    font-size: 30px;
+    text-decoration: underline;
+}
+section#inicio > p{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 5px;
+    text-align: center;
+}

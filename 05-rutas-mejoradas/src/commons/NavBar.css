@@ -1,0 +1,25 @@
+.opcion{
+    text-decoration: none;
+    background: linear-gradient(150deg, orangered, rgb(255, 255, 73), orange);
+    align-items: center;
+    height: 17%;
+    border: solid 2px black;
+    border-radius: 10px;
+    color: black;
+    background-size: 100% 100%;
+}
+.opcion:nth-child(6){
+    display: none;
+}
+.navbar{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 20px;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(255, 184, 52);
+}
+a{
+    padding-top: 17px;
+};
+

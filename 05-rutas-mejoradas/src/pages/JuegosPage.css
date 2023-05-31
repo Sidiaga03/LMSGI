@@ -1,0 +1,10 @@
+section#juegos > h1{
+  text-align: center;
+  border: solid 2px black;
+  width: 70%;
+  margin-left: 17%;
+  margin-top: 20px;
+  font-size: 40px;
+  color: black;
+  background: linear-gradient(to bottom, orange, yellow);
+}

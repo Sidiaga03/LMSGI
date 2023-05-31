@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  width: 20%;
+  height: 100vh;
+  border: solid 1px black;
+  background-color: gainsboro;
+}
+main{
+  width: 80%;
+  border: solid 1px black;
+  background-color: rgb(252, 252, 80);
+  background-image: url(./pages/img/Fondo.webp);
+}
+img{
+  width: 80%;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+#root{
+  display: flex;
+  flex-flow: row wrap;
+}
+nav{
+  background-color: white;
+  margin-top: 20px;
+  height: 80%;
+}
+nav > a{
+  margin-top: 2%;
+  font-size: 30px;
+  text-align: center;
+}
+p{
+  background-color: orange;
+  width: 99%;
+}
+h1{
+  text-align: center;
+  border: solid 2px black;
+  width: 70%;
+  margin-left: 13%;
+  margin-top: 20px;
+  color: black;
+  background: linear-gradient(to bottom, orange, yellow);
+}
+h1#sesion{
+  text-align: center;
+  border: solid 2px black;
+  width: 85%;
+  height: 90px;
+  font-size: 26px;
+  margin-left: 8%;
+  margin-top: 20px;
+  color: black;
+  text-decoration: none;
+  background: linear-gradient(to bottom, orange, yellow);
+}
+h3{
+  background-color: orange;
+  width: 50%;
+}

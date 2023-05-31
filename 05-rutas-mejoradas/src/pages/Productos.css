@@ -1,0 +1,27 @@
+section#productos > h1{
+    text-align: center;
+    border: solid 2px black;
+    width: 70%;
+    margin-left: 17%;
+    margin-top: 20px;
+    font-size: 40px;
+    color: black;
+    background: linear-gradient(to bottom, orange, yellow);
+}
+section#productos > h2{
+    text-align: center;
+    width: 50%;
+    border: solid 2px black;
+    margin-left: 25%;
+    margin-top: 5%;
+    font-size: 40px;
+    color: black;
+    background: linear-gradient(to top,orange, yellow)
+}
+section#productos > p{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 5px;
+    text-align: center;
+    text-decoration: underline;
+}
